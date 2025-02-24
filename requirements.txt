@@ -1,0 +1,8 @@
+# Core dependencies
+langchain
+groq
+streamlit
+sqlite3
+pytest
+openai
+requests

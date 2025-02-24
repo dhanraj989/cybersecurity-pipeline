@@ -1,0 +1,22 @@
+[project]
+name = "cybersecurity-pipeline"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dhanraj989", email = "dhanrajmalla169@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "langchain (>=0.3.19,<0.4.0)",
+    "groq (>=0.18.0,<0.19.0)",
+    "streamlit (>=1.42.2,<2.0.0)",
+    "pytest (>=8.3.4,<9.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "pyparsing (<3.0.0)",
+    "wfuzz (>=3.1.0,<4.0.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
