@@ -111,6 +111,8 @@ Before running scans, **install Nmap & FFUF** manually:
   ```
 
 ### **3️⃣ Set Environment Variables**
+Create a `.env` file  
+or  
 ```bash
 export GROQ_API_KEY="your-groq-api-key"
 ```
