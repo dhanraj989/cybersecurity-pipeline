@@ -1,7 +1,3 @@
-INFO:root:Executing task: Run nmap on https://example.com -> nmap -Pn -sV -T4 -F example.com
-INFO:root:Executing task: Run ffuf on https://example.com -> ffuf -u https://example.com/FUZZ -w "C:\Users\DHAN RAJ\Downloads\cybersecurity-pipeline\wordlists\dirb\common.txt"
-ERROR:root:Timeout: ffuf -u https://example.com/FUZZ -w "C:\Users\DHAN RAJ\Downloads\cybersecurity-pipeline\wordlists\dirb\common.txt" took too long to execute.
-INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 INFO:root:Executing task: Run nmap on https://owasp.org -> nmap -Pn -sV -T4 -F owasp.org
 INFO:root:Executing task: Run ffuf on https://owasp.org -> ffuf -u https://owasp.org/FUZZ -w "C:\Users\DHAN RAJ\Downloads\cybersecurity-pipeline\wordlists\dirb\common.txt"
 ERROR:root:Error running ffuf: 
