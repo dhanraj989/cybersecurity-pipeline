@@ -83,7 +83,7 @@ To ensure **ethical and controlled scanning**, the pipeline enforces **target sc
 #### **Using Poetry (Recommended)**
 ```bash
 poetry install
-poetry shell
+poetry shell # leave this line if it is causing error
 ```
 #### **Or Using `pip`**
 ```bash
